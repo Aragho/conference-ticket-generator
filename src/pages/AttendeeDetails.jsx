@@ -166,17 +166,18 @@ export default function AttendeeDetails() {
             placeholder={`Type your ${specialRequestLabel.toLowerCase()} here...`}
           ></textarea>
 
-          <div className="flex flex-col md:flex-row gap-4 mt-6 w-full">
+<div className="flex flex-col-reverse md:flex-row gap-4 mt-6 w-full">
+
             <Link to="/" className="w-full">
               <button className="w-full h-[40px] border border-[#24A0B5] text-white rounded-lg flex items-center justify-center text-lg font-bold transition-all duration-300 hover:bg-[#24A0B5]">
-                Get My Free Ticket
+                Back
               </button>
             </Link>
             <button
               onClick={handleSubmit}
               className="w-full h-[40px] border border-[#24A0B5] text-white rounded-lg flex items-center justify-center text-lg font-bold transition-all duration-300 hover:bg-[#24A0B5]"
             >
-              Back
+              Get My Free Ticket
             </button>
           </div>
         </div>

@@ -111,17 +111,18 @@ export default function TicketSelection() {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-4 mt-4 w-full">
-            <button className="w-full h-[40px] border border-gray-700 text-white rounded-lg flex items-center justify-center text-lg font-bold">
-              Next
-            </button>
-            <button
-              className="w-full h-[40px] bg-[#24A0B5] text-white rounded-lg flex items-center justify-center text-lg font-bold"
-              onClick={handleNext}
-            >
-              Cancel
-            </button>
-          </div>
+          <div className="flex flex-col md:flex-row-reverse gap-4 mt-4 w-full">
+  <button
+    className="w-full h-[40px] bg-[#24A0B5] text-white rounded-lg flex items-center justify-center text-lg font-bold"
+    onClick={handleNext}
+  >
+    Next
+  </button>
+  <button className="w-full h-[40px] border border-gray-700 text-white rounded-lg flex items-center justify-center text-lg font-bold">
+    Cancel
+  </button>
+</div>
+
         </div>
       </div>
     </div>
