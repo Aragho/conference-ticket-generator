@@ -6,10 +6,12 @@ export default function Layout() {
   const location = useLocation(); 
 
   return (
-    <div>
+    <div > 
       
       {location.pathname !== "/ticket" && <Header />}
-      <Outlet />
+     
+      <Outlet/>
+      
     </div>
   );
 }

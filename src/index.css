@@ -1,7 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  @apply bg-[#02191d] text-white font-sans;
+  @apply bg-gradient-to-b from-[#02191d] to-[#08343c] text-white font-sans;
 }
