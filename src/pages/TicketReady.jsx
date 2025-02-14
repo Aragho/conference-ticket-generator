@@ -137,12 +137,12 @@ export default function TicketReady() {
 
         <div className="flex flex-col md:flex-row gap-4 mt-6 w-full">
           <Link to="/"> 
-            <button className="w-full sm:w-auto px-6 py-3 border border-gray-700 text-white rounded-lg flex items-center justify-center text-lg font-bold">
-              Download Ticket
+            <button className="w-full sm:w-auto px-6 py-3 border border-gray-700 text-white rounded-lg flex items-center justify-center text-lg font-bold hover:bg-[#24A0B5]">
+            Book Another Ticket
             </button>
           </Link>
-          <button className="w-full sm:w-auto px-6 py-3 bg-[#24A0B5] text-white rounded-lg flex items-center justify-center text-lg font-bold">
-            Book Another Ticket
+          <button className="w-full sm:w-auto px-6 py-3 border border-gray-700 text-white rounded-lg flex items-center justify-center text-lg font-bold hover:bg-[#24A0B5]">
+           Download Ticket
           </button>
         </div>
       </div>
